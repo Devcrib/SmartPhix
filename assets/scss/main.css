@@ -1,0 +1,83 @@
+/* line 2, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif; }
+
+/* line 11, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+h1, h2, h3, h4, h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400; }
+
+/* Blue Color = rgba(20,180,250,0.9)*/
+/* line 19, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.contain {
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+  overflow: auto; }
+
+/* line 27, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.request-a-repair {
+  min-height: 200px;
+  overflow: auto;
+  width: 100%;
+  background: black;
+  color: white;
+  font-size: 2.5rem;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+/* line 38, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.repair-btn {
+  height: 100px;
+  width: 250px;
+  font-size: 2rem;
+  background: rgba(20, 180, 250, 0.9);
+  border: none; }
+
+/* line 46, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.text-adjust {
+  height: 100px;
+  line-height: 100px; }
+
+/* line 51, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.item {
+  height: 70vh;
+  width: 100%;
+  display: block; }
+
+/* line 57, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+#1 {
+  background-color: blue; }
+
+/* line 61, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+#2 {
+  background: green; }
+
+/* line 65, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+#3 {
+  background: red; }
+
+/* line 69, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+#4 {
+  background: orange; }
+
+/* line 73, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+#5 {
+  background: brown; }
+
+/* line 77, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.slider {
+  height: 75vh;
+  width: 100%; }
+
+/* line 82, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.header {
+  height: 100vh;
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
