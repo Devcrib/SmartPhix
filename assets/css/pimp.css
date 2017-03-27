@@ -1,0 +1,24 @@
+
+body {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    background-color: cornflowerblue;
+
+
+}
+
+.nav {
+    margin: 0;
+    padding: 10px;
+    height: 80px;
+    width: 138rem;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+
+header {
+    text-align: center;
+}
+
