@@ -62,6 +62,10 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+    text-align: center;
+
+
+
 }
 mark {
   background: #ff0;

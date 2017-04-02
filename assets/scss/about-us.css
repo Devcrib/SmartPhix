@@ -1,0 +1,16 @@
+/* line 1, C:/Users/Vera Michael/Desktop/DEVCRIP/smartpix/assets/scss/about-us.scss */
+.about-us {
+  text-align: center;
+  color: aliceblue;
+    background-color: rgba(20, 180, 250, 0.9);
+  height: 50%;
+    width: 100%;
+	  background-image: url("../imgs/convenience.jpg");
+    background-size: cover
+    background-size:cover;
+    position: relative;
+    overflow: auto;
+    background-attachment: fixed;
+}
+
+/*# sourceMappingURL=about-us.css.map */
