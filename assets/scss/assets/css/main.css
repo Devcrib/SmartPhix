@@ -1,0 +1,626 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400; }
+
+@media (min-width: 1441px) {
+  .container {
+    width: 1770px; } }
+/* Blue Color = rgba(20,180,250,0.9)*/
+.contain {
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+  overflow: auto; }
+
+.request-a-repair {
+  margin-top: -0.1vh;
+  min-height: 35vh;
+  overflow: auto;
+  width: 100%;
+  background: black;
+  color: white;
+  font-size: 3.4vh;
+  padding-top: 10vh;
+  padding-bottom: 8.5vh; }
+  .request-a-repair .text-adjust {
+    min-height: 100px;
+    line-height: 12vh;
+    overflow: auto; }
+  @media (min-width: 320px) {
+    .request-a-repair .repair-btn {
+      height: 100px;
+      width: 250px;
+      font-size: 2rem;
+      background: rgba(20, 180, 250, 0.9);
+      border: none; } }
+  @media (min-width: 1400px) {
+    .request-a-repair .repair-btn {
+      height: 150px;
+      width: 400px;
+      font-size: 3.1vh;
+      background: rgba(20, 180, 250, 0.9);
+      border: none; } }
+  @media (min-width: 2560px) {
+    .request-a-repair .repair-btn {
+      height: 300px;
+      width: 750px;
+      font-size: 2.5vh;
+      background: rgba(20, 180, 250, 0.9);
+      border: none; } }
+
+.item {
+  height: 80vh;
+  width: 100vw; }
+
+.item::before {
+  content: '';
+  position: absolute;
+  height: 80vh;
+  width: 100vw;
+  opacity: 0.6;
+  background-color: black;
+  top: 0; }
+
+#item-1 {
+  background: url("../imgs/3-days.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#item-2 {
+  background: url("../imgs/convenience.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#item-3 {
+  background: url("../imgs/price.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#item-4 {
+  background: url("../imgs/warranty.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#item-5 {
+  background: url("../imgs/free-gift.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.slider {
+  height: 80vh;
+  width: 100%; }
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  overflow: auto; }
+  .header .btn-holder {
+    margin: auto;
+    text-align: center;
+    font-size: 2.308vh; }
+    @media (max-width: 767px) {
+      .header .btn-holder button {
+        height: 60px;
+        width: 180px;
+        background: transparent;
+        border: 2px solid white;
+        border-radius: 50px; } }
+    @media (min-width: 768px) {
+      .header .btn-holder button {
+        height: 9vh;
+        width: 25vw;
+        background: transparent;
+        border: 2px solid white;
+        border-radius: 25vw; } }
+
+.inner {
+  position: absolute;
+  top: 0;
+  z-index: 100000;
+  color: white;
+  width: 100%; }
+
+.inner h1, .inner h2, .inner h3 {
+  margin: auto;
+  text-align: center;
+  padding-top: 28vh;
+  font-size: 5.931vh; }
+.inner p {
+  font-weight: 100;
+  padding-top: 3.3vh;
+  line-height: 5vh;
+  color: #eee;
+  font-size: 2.308vh; }
+
+.form-group {
+  margin: auto;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  .form-group label {
+    color: #999;
+    font-size: 18px; }
+  .form-group label {
+    color: #666; }
+  .form-group .form-input {
+    margin: auto;
+    display: block;
+    height: 50px;
+    width: 80%;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    color: #333;
+    font-size: 14px;
+    text-align: center; }
+  .form-group select {
+    text-align: center;
+    margin: auto; }
+
+#problem-phone {
+  height: 100px;
+  line-height: 100px; }
+
+.counter-section {
+  min-height: 20vh;
+  width: 100%;
+  background: black;
+  overflow: auto;
+  padding-top: 3vh;
+  padding-bottom: 3vh; }
+  .counter-section h4 {
+    padding-top: 1.65vh;
+    color: #eee;
+    font-size: 4.945vh; }
+  .counter-section h5 {
+    padding-bottom: 1.65vh;
+    font-size: 2.5vh;
+    color: #888; }
+
+.nav {
+  background: transparent;
+  min-height: 90px;
+  overflow: auto; }
+  @media (max-width: 768px) {
+    .nav .navbar-brand {
+      line-height: 6vh;
+      padding-top: 6vh;
+      padding-left: 6vh;
+      color: white;
+      font-family: 'Pacifico', cursive;
+      font-size: 4vh; } }
+  @media (min-width: 769px) {
+    .nav .navbar-brand {
+      line-height: 2vh;
+      padding-top: 5vh;
+      padding-left: 6vh;
+      color: white;
+      font-family: 'Pacifico', cursive;
+      font-size: 4vh; } }
+  @media (min-width: 1440px) {
+    .nav .navbar-brand {
+      line-height: 2vh;
+      padding-top: 4vh;
+      padding-left: 6vh;
+      color: white;
+      font-family: 'Pacifico', cursive;
+      font-size: 4vh; } }
+  @media (max-width: 767px) {
+    .nav li a {
+      padding-top: 5vh;
+      padding-bottom: 5vh;
+      height: 10vh;
+      line-height: 5.5vh;
+      font-size: 1.7vh;
+      text-align: center;
+      color: white; } }
+  @media (min-width: 768px) {
+    .nav li a {
+      padding-top: 5vh;
+      padding-bottom: 5vh;
+      height: 10vh;
+      line-height: 3vh;
+      font-size: 1.7vh;
+      text-align: center;
+      color: white; } }
+  @media (min-width: 1440px) {
+    .nav li a {
+      padding-top: 3vh;
+      padding-bottom: 5vh;
+      height: 10vh;
+      line-height: 3vh;
+      font-size: 1.7vh;
+      text-align: center;
+      color: white; } }
+  .nav li a:hover {
+    color: #666; }
+
+.floating {
+  position: fixed;
+  height: 7.5vh;
+  width: 7.5vh;
+  line-height: 6.5vh;
+  color: white;
+  text-align: center;
+  background: black;
+  z-index: 100000000000;
+  bottom: 0;
+  right: 0;
+  margin: 2.5vh;
+  font-size: 4vh; }
+
+.nav-btn {
+  height: 100px;
+  width: 100%;
+  padding-top: 25px; }
+
+.whte {
+  color: white; }
+
+.testimonials {
+  min-height: 100vh;
+  overflow: auto;
+  width: 100vw; }
+
+#testimony-1 {
+  background: white;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh; }
+
+#testimony-2 {
+  background: white;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh; }
+
+#testimony-3 {
+  background: white;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh; }
+
+#testimony-4 {
+  background: white;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh; }
+
+#testimony-5 {
+  background: white;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh; }
+
+.our-service-image-1 {
+  margin: auto;
+  background: url(../imgs/Approval-80.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  @media (min-width: 320px) {
+    .our-service-image-1 {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%; } }
+  @media (min-width: 1440px) {
+    .our-service-image-1 {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%; } }
+
+.our-service-image-2 {
+  margin: auto;
+  background: url(../imgs/Clock.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  @media (min-width: 320px) {
+    .our-service-image-2 {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%; } }
+  @media (min-width: 1440px) {
+    .our-service-image-2 {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%; } }
+
+.our-service-image-3 {
+  margin: auto;
+  background: url(../imgs/Price%20Tag-80.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  @media (min-width: 320px) {
+    .our-service-image-3 {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%; } }
+  @media (min-width: 1440px) {
+    .our-service-image-3 {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%; } }
+
+.inner-partner-item-1 {
+  background: url(../imgs/phone-logos/samsung.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 11em;
+  width: 11em;
+  margin: auto;
+  margin-top: 3em; }
+
+.inner-partner-item-2 {
+  background: url(../imgs/phone-logos/apple-black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 11em;
+  width: 11em;
+  margin: auto;
+  margin-top: 3em; }
+
+.inner-partner-item-3 {
+  background: url(../imgs/phone-logos/blackberry.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 11em;
+  width: 11em;
+  margin: auto;
+  margin-top: 3em; }
+
+.inner-partner-item-4 {
+  background: url(../imgs/phone-logos/htc.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 11em;
+  width: 11em;
+  margin: auto;
+  margin-top: 3em; }
+
+.inner-partner-item-5 {
+  background: url(../imgs/phone-logos/microsoft.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 11em;
+  width: 11em;
+  margin: auto;
+  margin-top: 3em; }
+
+.round-img {
+  margin: auto;
+  width: 33vh;
+  height: 33vh;
+  border: 1px solid #222;
+  border-radius: 50%;
+  background: white; }
+
+#round-img-1 {
+  background: url(../imgs/face1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 25vh;
+  width: 25vh; }
+
+#round-img-2 {
+  background: url(../imgs/face2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 25vh;
+  width: 25vh; }
+
+#round-img-3 {
+  background: url(../imgs/face3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 25vh;
+  width: 25vh; }
+
+#round-img-4 {
+  background: url(../imgs/face4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 25vh;
+  width: 25vh; }
+
+#round-img-5 {
+  background: url(../imgs/face5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 25vh;
+  width: 25vh; }
+
+.testimony {
+  width: 100%; }
+
+.testimony-inner {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 25vh; }
+
+.text-testimony {
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  font-size: 2.4vh;
+  line-height: 5.5vh;
+  text-align: justify; }
+
+.triangle-top-left {
+  margin-top: -0.1vh;
+  border-top: 18vh solid #000;
+  border-right: 100vw solid transparent; }
+
+.triangle-top-right {
+  margin-bottom: -0.1vh;
+  width: 100vw;
+  height: 10vh;
+  border-bottom: 18vh solid #000;
+  border-left: 100vw solid transparent; }
+
+.triangle-bottom-left {
+  width: 100vw;
+  height: 10vh;
+  border-top: 18vh solid #000;
+  border-right: 100vw solid transparent; }
+
+#push-am-up {
+  margin-top: -10.5vh;
+  z-index: 10; }
+
+.our-services {
+  margin-top: -0.1vh;
+  padding-top: 12vh;
+  padding-bottom: 15vh;
+  min-height: 50vh;
+  overflow: auto;
+  width: 100%;
+  background: black; }
+  .our-services h1 {
+    padding-top: 1vh;
+    color: white;
+    font-size: 5vh;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 2vh; }
+  .our-services div {
+    text-align: justify;
+    margin: auto; }
+    .our-services div h4 {
+      color: #eee;
+      margin: auto;
+      text-align: center; }
+    .our-services div p {
+      text-align: center;
+      padding-top: 1vh;
+      padding-bottom: 5vh;
+      color: #777;
+      line-height: 4.5vh;
+      font-weight: 100;
+      font-size: 2.35vh; }
+
+.parner-item {
+  height: 50%; }
+
+.partners {
+  height: 80vh;
+  width: 100%;
+  background: #eee;
+  overflow: auto; }
+  .partners .left-partners {
+    height: 100%;
+    background: white; }
+  .partners .right-partners {
+    height: 100%; }
+
+.map-div {
+  min-height: 100vh;
+  overflow: auto; }
+
+#map_wrapper {
+  height: 100vh;
+  margin: auto;
+  width: 100%;
+  padding-top: 15vh;
+  padding-bottom: 30vh;
+  text-align: center; }
+  #map_wrapper h1 {
+    margin: auto;
+    margin: auto;
+    padding-bottom: 1.5vh;
+    font-size: 5.95vh; }
+  #map_wrapper p {
+    font-weight: 200;
+    color: #999;
+    padding-bottom: 6vh;
+    font-size: 2.05vh; }
+  #map_wrapper #map_canvas {
+    width: 80%;
+    height: 100%;
+    margin: auto; }
+
+.pre-footer {
+  height: 60vh;
+  width: 100%;
+  background: black; }
+  .pre-footer p {
+    color: white;
+    line-height: 5vh;
+    text-align: justify; }
+  .pre-footer .f-inner {
+    margin-top: 18vh; }
+
+footer {
+  font-size: 2.5vh;
+  line-height: 9.8vh;
+  height: 10vh;
+  background: white;
+  width: 100%;
+  text-align: center;
+  color: #666; }
+  footer a {
+    color: lightblue; }
+
+.contact p {
+  text-align: center;
+  margin: auto;
+  font-weight: 100;
+  color: #eee;
+  letter-spacing: .1vh;
+  font-size: 2vh; }
+
+.social-media-icons {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding: 0;
+  padding-top: 18vh;
+  padding-bottom: 5vh; }
+  .social-media-icons li {
+    margin-right: 1px;
+    display: inline-block; }
+  .social-media-icons a {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none; }
+  .social-media-icons i {
+    font-size: 2vh; }
+  .social-media-icons .round-icon {
+    height: 6.4vh;
+    width: 6.4vh;
+    border-radius: 50%;
+    line-height: 6vh;
+    vertical-align: middle;
+    color: white; }
+    @media (min-width: 320px) {
+      .social-media-icons .round-icon {
+        border: 2px solid white; } }
+    @media (min-width: 1440px) {
+      .social-media-icons .round-icon {
+        border: 4px solid white; } }
+    @media (min-width: 2560px) {
+      .social-media-icons .round-icon {
+        border: 6px solid white; } }
