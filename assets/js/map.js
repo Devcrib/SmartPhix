@@ -1,7 +1,10 @@
 $(function() {
     // Asynchronously Load the map API 
     var script = document.createElement('script');
-    script.src = "//maps.googleapis.com/maps/api/js?sensor=false&callback=initialize";
+    
+    
+    script.src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjzduLApDwyLcGgxyRnry1u95t9tcV2Ec&callback=myMap";
+ 
     document.body.appendChild(script);
 });
 
