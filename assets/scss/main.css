@@ -30,54 +30,344 @@ h1, h2, h3, h4, h5 {
   font-size: 2.5rem;
   padding-top: 50px;
   padding-bottom: 50px; }
+  /* line 40, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+  .request-a-repair .text-adjust {
+    min-height: 100px;
+    line-height: 100px;
+    overflow: auto; }
+  /* line 46, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+  .request-a-repair .repair-btn {
+    height: 100px;
+    width: 250px;
+    font-size: 2rem;
+    background: rgba(20, 180, 250, 0.9);
+    border: none; }
 
-/* line 38, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
-.repair-btn {
-  height: 100px;
-  width: 250px;
-  font-size: 2rem;
-  background: rgba(20, 180, 250, 0.9);
-  border: none; }
+/* line 57, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.item {
+  height: 80vh;
+  width: 100%;
+  display: block;
+  background-size: cover;
+  background-position: center; }
 
-/* line 46, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
-.text-adjust {
+/* line 66, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.item::before {
+  content: '';
+  position: absolute;
+  height: 80vh;
+  width: 100%;
+  opacity: 0.6;
+  background-color: black;
+  top: 0; }
+
+/* line 76, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+#item-1 {
+  background: url("/assets/imgs/3-days.jpeg") no-repeat; }
+
+/* line 80, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+#item-2 {
+  background: url("/assets/imgs/convenience.jpg") no-repeat; }
+
+/* line 85, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+#item-3 {
+  background: url("/assets/imgs/price.jpeg") no-repeat; }
+
+/* line 89, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+#item-4 {
+  background: url("/assets/imgs/warranty.jpeg") no-repeat; }
+
+/* line 94, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+#item-5 {
+  background: url("/assets/imgs/free-gift.jpeg") no-repeat; }
+
+/* line 98, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.slider {
+  height: 80vh;
+  width: 100%; }
+
+/* line 103, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.header {
+  min-height: 100vh;
+  width: 100%;
+  overflow: auto; }
+  /* line 107, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+  .header .btn-holder {
+    margin: auto;
+    text-align: center; }
+    /* line 111, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+    .header .btn-holder button {
+      height: 60px;
+      width: 180px;
+      background: transparent;
+      border: 2px solid white;
+      border-radius: 50px; }
+
+/* line 140, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.inner {
+  position: absolute;
+  top: 0;
+  z-index: 100000;
+  color: white;
+  width: 100%; }
+
+/* line 150, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.inner h1, .inner h2, .inner h3 {
+  margin: auto;
+  text-align: center;
+  padding-top: 28vh; }
+
+/* line 156, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.inner p {
+  font-weight: 100;
+  padding-top: 2rem;
+  line-height: 3rem;
+  color: #eee; }
+
+/* line 164, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.form-group {
+  margin: auto;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  /* line 169, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+  .form-group label {
+    color: #999;
+    font-size: 18px; }
+  /* line 174, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+  .form-group .form-input {
+    height: 50px;
+    width: 80%;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    color: #333;
+    font-size: 14px;
+    text-align: center; }
+  /* line 184, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+  .form-group select {
+    text-align: center;
+    margin: auto; }
+
+/* line 190, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+#problem-phone {
   height: 100px;
   line-height: 100px; }
 
-/* line 51, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
-.item {
-  height: 70vh;
+/* line 195, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.counter-section {
+  padding-top: 3vh;
+  padding-bottom: 3vh; }
+  /* line 198, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+  .counter-section h4 {
+    padding-top: 1rem;
+    color: #eee;
+    font-size: 3rem; }
+  /* line 203, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+  .counter-section h5 {
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #888; }
+
+/* line 211, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.nav {
+  background: transparent;
+  min-height: 100px;
+  overflow: auto; }
+  /* line 217, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+  .nav li a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 100px;
+    line-height: 40px;
+    text-align: center;
+    color: white; }
+
+/* line 232, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.counter-section {
+  min-height: 20vh;
   width: 100%;
-  display: block; }
+  background: black;
+  overflow: auto; }
 
-/* line 57, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
-#1 {
-  background-color: blue; }
+/* line 239, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.floating {
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  background: lightblue;
+  z-index: 100000000000;
+  bottom: 0;
+  right: 0;
+  margin: 20px; }
 
-/* line 61, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
-#2 {
-  background: green; }
+/* line 251, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.nav-btn {
+  height: 100px;
+  width: 100%;
+  padding-top: 25px; }
 
-/* line 65, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
-#3 {
-  background: red; }
+/* line 257, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.whte {
+  color: white; }
 
-/* line 69, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
-#4 {
-  background: orange; }
+/* line 260, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.testimonials {
+  min-height: 100vh;
+  overflow: auto;
+  width: 100vw; }
 
-/* line 73, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
-#5 {
-  background: brown; }
+/* line 270, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+#testimony-1 {
+  background: white;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh; }
 
-/* line 77, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
-.slider {
-  height: 75vh;
+/* line 270, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+#testimony-2 {
+  background: white;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh; }
+
+/* line 270, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+#testimony-3 {
+  background: white;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh; }
+
+/* line 270, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+#testimony-4 {
+  background: white;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh; }
+
+/* line 270, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+#testimony-5 {
+  background: white;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh; }
+
+/* line 288, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.our-service-image-1 {
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; }
+
+/* line 288, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.our-service-image-2 {
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; }
+
+/* line 288, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.our-service-image-3 {
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; }
+
+/* line 288, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.our-service-image-4 {
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; }
+
+/* line 288, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.our-service-image-5 {
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; }
+
+/* line 306, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.round-img {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #222;
+  border-radius: 50%;
+  background: white; }
+
+/* line 315, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.testimony {
   width: 100%; }
 
-/* line 82, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
-.header {
-  height: 100vh;
-  width: 100%; }
+/* line 318, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.testimony-inner {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 25vh; }
+
+/* line 325, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.text-testimony {
+  padding-top: 3rem;
+  color: #777;
+  line-height: 3.5rem;
+  text-align: justify; }
+
+/* line 332, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.triangle-top-left {
+  width: 100vw;
+  height: 10vh;
+  border-top: 100px solid #000;
+  border-right: 100vw solid transparent; }
+
+/* line 340, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.triangle-top-right {
+  width: 100vw;
+  height: 10vh;
+  border-bottom: 100px solid #000;
+  border-left: 100vw solid transparent; }
+
+/* line 349, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+#push-am-up {
+  margin-top: -100px;
+  z-index: 10; }
+
+/* line 355, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.our-services {
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  min-height: 50vh;
+  overflow: auto;
+  width: 100%;
+  background: black; }
+  /* line 365, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+  .our-services div h4 {
+    color: #eee; }
+  /* line 368, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+  .our-services div p {
+    padding-top: 2rem;
+    color: #777;
+    line-height: 3rem;
+    font-weight: 100; }
+
+/* line 383, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.our-service-image-1 {
+  background: url(../imgs/Approval-80.png); }
+
+/* line 388, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.our-service-image-2 {
+  background: url(../imgs/Clock.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+/* line 396, /Users/bane/Documents/Repositories/smartphix/assets/scss/main.scss */
+.our-service-image-3 {
+  background: url(../imgs/Price%20Tag-80.png); }
 
 /*# sourceMappingURL=main.css.map */

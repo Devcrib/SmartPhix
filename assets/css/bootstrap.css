@@ -4487,11 +4487,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #eee;
+}
+
+@media(max-width:767px){
+    .navbar-default .navbar-nav > li > a {
+  color: #555;
+}
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
+  color: #555;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
