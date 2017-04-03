@@ -70,27 +70,27 @@ h1, h2, h3, h4, h5 {
   top: 0; }
 
 #item-1 {
-  background: url("/assets/imgs/3-days.jpeg");
+  background: url("../imgs/3-days.jpeg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 #item-2 {
-  background: url("/assets/imgs/convenience.jpg");
+  background: url("../imgs/convenience.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 #item-3 {
-  background: url("/assets/imgs/price.jpeg");
+  background: url("../imgs/price.jpeg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 #item-4 {
-  background: url("/assets/imgs/warranty.jpeg");
+  background: url("../imgs/warranty.jpeg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 #item-5 {
-  background: url("/assets/imgs/free-gift.jpeg");
+  background: url("../imgs/free-gift.jpeg");
   background-repeat: no-repeat;
   background-size: cover; }
 
