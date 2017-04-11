@@ -23,3 +23,38 @@ h1,h2,h3,h4,h5{
     width: 100%;
     overflow: auto;
 }
+
+.testimonials {
+	min-height: 400px;
+    width: 100%;
+    text-align: center;
+    color: dodgerblue;
+    font-weight: bold;
+    overflow: auto;
+    border-bottom-style: groove;
+}
+
+.partners {
+    text-align: center;
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+.testimonials h4 {
+    font-size: 1.5em;
+    color: black;
+}
+
+.testimonials p {
+    font-size: 1em;
+    color: black;
+    font-weight: 200;
+}
+
+.testimonials img {
+    border-radius: 50%;
+}
+
+
+
+
